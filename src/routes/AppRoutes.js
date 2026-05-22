@@ -11,7 +11,7 @@ export default function AppRoutes() {
     <Stack.Navigator>
         <Stack.Screen name="Login" component={LoginScreen} options={{headerShown: false}}/>
         <Stack.Screen name="Register" component={RegisterScreen} options={{title: 'Meu cadastro'}}/>
-        <Stack.Screen name="Todo" component={TodoScreen} options={{title: 'Lista de Tarefas'}}/>
+        <Stack.Screen name="Todo" component={TodoScreen} options={{headerShown: false}}/>
     </Stack.Navigator>
   );
 }
