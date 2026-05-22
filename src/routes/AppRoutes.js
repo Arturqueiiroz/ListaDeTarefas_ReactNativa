@@ -4,12 +4,14 @@ const Stack = createStackNavigator();
 
 import LoginScreen from '../screens/LoginScreen';
 import RegisterScreen from '../screens/RegisterScreen';
+import TodoScreen from '../screens/TodoScreen';
 
 export default function AppRoutes() {
   return (
     <Stack.Navigator>
         <Stack.Screen name="Login" component={LoginScreen} options={{headerShown: false}}/>
         <Stack.Screen name="Register" component={RegisterScreen} options={{title: 'Meu cadastro'}}/>
+        <Stack.Screen name="Todo" component={TodoScreen} options={{title: 'Lista de Tarefas'}}/>
     </Stack.Navigator>
   );
 }

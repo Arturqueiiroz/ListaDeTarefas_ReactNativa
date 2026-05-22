@@ -25,7 +25,7 @@ export default function RegisterScreen({navigation}) {
             <Text style={styles.forgotPasswordText}>Esqueceu sua senha?</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.button} onPress={handleLogin}>
-            <Text style={styles.buttonText}>Entrar</Text>
+            <Text style={styles.buttonText}>Registrar</Text>
           </TouchableOpacity>
         </View>
         <View style={{marginTop: 24, alignItems: 'center'}}>

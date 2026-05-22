@@ -28,6 +28,9 @@ export default function LoginScreen(
           <TouchableOpacity style={styles.button} onPress={handleLogin}>
             <Text style={styles.buttonText}>Entrar</Text>
           </TouchableOpacity>
+          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Todo')}>
+            <Text style={styles.buttonText}>Lista de tarefas</Text>
+          </TouchableOpacity>
         </View>
         <View style={{marginTop: 24, alignItems: 'center'}}>
           <Text style={{color: '#6c727f', fontSize: 14}}>Ou entre com</Text>
