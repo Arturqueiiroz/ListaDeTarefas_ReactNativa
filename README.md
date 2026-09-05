@@ -1,91 +1,102 @@
 # Lista de Tarefas — React Native
 
-Aplicativo mobile de lista de tarefas desenvolvido em React Native como projeto acadê¬¬mico. O sistema permite cadastro e autenticaç¬¬o de usuá¬¬rios, além do gerenciamento completo de tarefas (criar, visualizar, editar e excluir).
+Aplicativo mobile de lista de tarefas desenvolvido em React Native como projeto acadêmico. O sistema permite o cadastro e a autenticação de usuários, além do gerenciamento completo de tarefas, incluindo criação, visualização, edição e exclusão.
 
-## 📱 Visã¬¬o Geral
+## 📱 Visão Geral
 
-Este projeto foi desenvolvido no contexto acadê¬¬mico com o objetivo de aplicar e consolidar conhecimentos em desenvolvimento mobile utilizando React Native. A aplicaç¬¬o oferece uma interface simples e intuitiva para organizaç¬¬o de tarefas diá¬¬rias, com funcionalidades essenciais de um sistema de gerenciamento pessoal.
+Este projeto foi desenvolvido no contexto acadêmico com o objetivo de aplicar e consolidar conhecimentos em desenvolvimento mobile utilizando React Native.
 
-## ✨ Funcionalidades
+A aplicação oferece uma interface simples e intuitiva para a organização de tarefas diárias, reunindo funcionalidades essenciais de um sistema de gerenciamento pessoal.
 
-- **Autenticaç¬¬o de usuá¬¬rios**: cadastro e login com validaç¬¬o de credenciais;
-- **Gerenciamento de tarefas**: criar, visualizar, editar e excluir tarefas;
-- **Interface responsiva**: layout adaptado para dispositivos móveis;
-- **Navegaç¬¬o entre telas**: fluxo de navegaç¬¬o estruturado entre login, cadastro e lista de tarefas.
+## Funcionalidades
 
-## 🏗️ Estrutura do Projeto
+* **Autenticação de usuários:** cadastro e login com validação de credenciais;
+* **Gerenciamento de tarefas:** criação, visualização, edição e exclusão de tarefas;
+* **Interface responsiva:** layout adaptado para dispositivos móveis;
+* **Navegação entre telas:** fluxo de navegação estruturado entre as telas de login, cadastro e lista de tarefas.
 
-```
+## Estrutura do Projeto
+
+```text
 ListaDeTarefas_ReactNativa/
 ├── src/
-│   ├── screens/          # Telas da aplicaç¬¬o
+│   ├── screens/          # Telas da aplicação
 │   │   ├── LoginScreen.js
 │   │   ├── RegisterScreen.js
 │   │   └── TodoScreen.js
-│   └── routes/           # Configuraç¬¬o de rotas
+│   └── routes/           # Configuração das rotas
 │       └── AppRoutes.js
-├── assets/               # Recursos estáticos (imagens, ícones, etc.)
+├── assets/               # Recursos estáticos (imagens, ícones etc.)
 ├── App.js                # Componente principal
-├── index.js              # Ponto de entrada da aplicaç¬¬o
-├── app.json              # Configuraç¬¬es do Expo
-├── package.json          # Dependê¬¬ncias do projeto
-└── README.md             # Documentaç¬¬o
+├── index.js              # Ponto de entrada da aplicação
+├── app.json              # Configurações do Expo
+├── package.json          # Dependências do projeto
+└── README.md             # Documentação do projeto
 ```
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React Native**: framework para desenvolvimento mobile;
-- **Expo**: plataforma de desenvolvimento e build;
-- **React Navigation**: navegaç¬¬o entre telas;
-- **JavaScript (ES6+)**: linguagem de programaç¬¬o.
+* **React Native:** framework utilizado para o desenvolvimento da aplicação mobile;
+* **Expo:** plataforma utilizada para desenvolvimento e execução do projeto;
+* **React Navigation:** biblioteca utilizada para a navegação entre as telas;
+* **JavaScript (ES6+):** linguagem de programação utilizada no desenvolvimento da aplicação.
 
 ## 🚀 Como Executar
 
 ### Pré-requisitos
 
-- Node.js instalado;
-- npm ou yarn;
-- Expo CLI (`npm install -g expo-cli`);
-- Aplicativo Expo Go no celular (para testes em dispositivo físico) ou emulador configurado.
+Antes de executar o projeto, é necessário ter instalado:
+
+* Node.js;
+* npm ou Yarn;
+* Expo;
+* Aplicativo Expo Go no celular, para testes em dispositivo físico, ou um emulador configurado.
 
 ### Passos
 
-1. Clone o repositó¬¬¬rio:
+1. Clone o repositório:
+
    ```bash
    git clone https://github.com/Arturqueiiroz/ListaDeTarefas_ReactNativa.git
    cd ListaDeTarefas_ReactNativa
    ```
 
-2. Instale as dependê¬¬ncias:
+2. Instale as dependências:
+
    ```bash
    npm install
    ```
 
 3. Inicie o servidor de desenvolvimento:
+
    ```bash
    npx expo start
    ```
 
-4. Abra o aplicativo no seu dispositivo ou emulador escaneando o QR code exibido no terminal.
+4. Abra o aplicativo no seu dispositivo físico utilizando o Expo Go ou execute-o em um emulador configurado.
 
-## 📚 Contexto Acadê¬¬mico
+## 📚 Contexto Acadêmico
 
-Este projeto foi desenvolvido como parte de atividades acadê¬¬micas, com foco em:
+Este projeto foi desenvolvido como parte de atividades acadêmicas, com foco na aplicação prática de conceitos relacionados ao desenvolvimento mobile.
 
-- Prá¬¬tica de desenvolvimento mobile com React Native;
-- Aplicaç¬¬o de conceitos de componentes, estado e props;
-- Implementaç¬¬o de navegaç¬¬o e fluxos de tela;
-- Organizaç¬¬o de có—digo em estrutura modular.
+Durante o desenvolvimento, foram trabalhados os seguintes conhecimentos:
+
+* Prática de desenvolvimento mobile com React Native;
+* Aplicação de conceitos de componentes, estado e props;
+* Implementação de navegação e fluxos entre telas;
+* Organização do código em uma estrutura modular;
+* Desenvolvimento de funcionalidades de cadastro, autenticação e gerenciamento de tarefas.
 
 ## 👨‍💻 Autor
 
-**Artur Queiroz**  
+**Artur Queiroz**
+
 GitHub: [@Arturqueiiroz](https://github.com/Arturqueiiroz)
 
-## 📄 Licenç¬¬a
+## 📄 Licença
 
-Este projeto foi desenvolvido para fins acadê¬¬micos e está disponí¬¬vel para estudo e contribuiç¬¬es.
+Este projeto foi desenvolvido para fins acadêmicos e está disponível para estudo e contribuições.
 
 ---
 
-*Projeto desenvolvido no contexto acadê¬¬mico para aprendizado e prá—tica de desenvolvimento mobile com React Native.*
+*Projeto desenvolvido no contexto acadêmico para aprendizado e prática de desenvolvimento mobile com React Native.*
